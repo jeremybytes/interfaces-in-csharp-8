@@ -23,8 +23,8 @@ namespace InterfaceProperties
             ShowAbstractPolygon(bigSquare);
 
             // Setting "BadMember" property results in a StackOverflow
-            IOverflowInterface bigError = new OverflowObject();
-            // bigError.BadMember = 2;
+            IBadInterface bigError = new BadObject();
+            bigError.BadMember = 2;
         }
 
         private static void ShowInterfacePolygon(IRegularPolygon polygon)
