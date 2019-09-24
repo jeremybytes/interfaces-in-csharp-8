@@ -11,6 +11,6 @@
             SideLength = sideLength;
         }
 
-        public int Area => SideLength * SideLength;
+        public double Area => SideLength * SideLength;
     }
 }

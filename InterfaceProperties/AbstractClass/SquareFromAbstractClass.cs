@@ -6,6 +6,6 @@
             base(4, sideLength)
         { }
 
-        public override int Area => SideLength * SideLength;
+        public override double Area => SideLength * SideLength;
     }
 }

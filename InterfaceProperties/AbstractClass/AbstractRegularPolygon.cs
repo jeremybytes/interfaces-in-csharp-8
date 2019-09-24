@@ -35,8 +35,8 @@ namespace InterfaceProperties
             SideLength = sideLength;
         }
 
-        public int Perimeter => NumberOfSides * SideLength;
+        public double Perimeter => NumberOfSides * SideLength;
 
-        abstract public int Area { get; }
+        abstract public double Area { get; }
     }
 }
