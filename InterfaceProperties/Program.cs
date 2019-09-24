@@ -24,7 +24,7 @@ namespace InterfaceProperties
 
             // Setting "BadMember" property results in a StackOverflow
             IBadInterface bigError = new BadObject();
-            bigError.BadMember = 2;
+            //bigError.BadMember = 2;
         }
 
         private static void ShowInterfacePolygon(IRegularPolygon polygon)
