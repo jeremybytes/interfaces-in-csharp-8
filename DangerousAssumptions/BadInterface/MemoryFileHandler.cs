@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace InterfaceMethods
+namespace DangerousAssumptions.BadInterface
 {
     public class MemoryStringFileHandler : IFileHandler
     {

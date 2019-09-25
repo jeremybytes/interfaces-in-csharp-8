@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace InterfaceMethods
+namespace DangerousAssumptions.SlowPerformance
 {
     public interface IReader<T>
     {

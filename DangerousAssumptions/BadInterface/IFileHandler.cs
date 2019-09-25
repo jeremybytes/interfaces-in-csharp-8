@@ -1,4 +1,4 @@
-﻿namespace InterfaceMethods
+﻿namespace DangerousAssumptions.BadInterface
 {
     public interface IFileHandler
     {

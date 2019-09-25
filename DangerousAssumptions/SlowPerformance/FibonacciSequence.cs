@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace InterfaceMethods
+namespace DangerousAssumptions.SlowPerformance
 {
     public class FibonacciSequence : IEnumerable<int>
     {

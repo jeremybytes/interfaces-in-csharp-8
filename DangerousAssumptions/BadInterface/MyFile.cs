@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace InterfaceMethods
+namespace DangerousAssumptions.BadInterface
 {
     public class MyFile : IFileHandler
     {

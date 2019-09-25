@@ -1,6 +1,7 @@
-﻿using System;
+﻿using DangerousAssumptions.SlowPerformance;
+using System;
 
-namespace InterfaceMethods
+namespace DangerousAssumptions
 {
     class Program
     {
