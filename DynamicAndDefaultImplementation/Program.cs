@@ -43,6 +43,11 @@ namespace DynamicAndDefaultImplementation
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("----------------------------------");
             }
+
+            // "triangle" type is IRegularPolygon
+            IRegularPolygon triangle = new Triangle(10);
+            ShowInterfacePolygon(triangle);
+            ShowDynamicPolygon(triangle);
         }
 
         private static void ShowInterfacePolygon(IRegularPolygon polygon)
