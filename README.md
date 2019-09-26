@@ -8,4 +8,5 @@ This is a work in progress.
 [C# 8 Interfaces are a Bit of a Mess](https://jeremybytes.blogspot.com/2019/09/interfaces-in-c-8-are-bit-of-mess.html)  
 [A Closer Look at C# 8 Interfaces](https://jeremybytes.blogspot.com/2019/09/a-closer-look-at-c-8-interfaces.html)  
 [Properties and Default Implementation](https://jeremybytes.blogspot.com/2019/09/c-8-interfaces-properties-and-default.html)  
-[Dangerous Assumptions in Default Implementation](https://jeremybytes.blogspot.com/2019/09/c-8-interfaces-dangerous-assumptions-in.html)
+[Dangerous Assumptions in Default Implementation](https://jeremybytes.blogspot.com/2019/09/c-8-interfaces-dangerous-assumptions-in.html)  
+["dynamic" and Default Implementation](https://jeremybytes.blogspot.com/2019/09/c-8-interfaces-dynamic-and-default.html)
