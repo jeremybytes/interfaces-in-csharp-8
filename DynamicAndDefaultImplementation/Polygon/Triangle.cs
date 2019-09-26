@@ -9,7 +9,7 @@ namespace DynamicAndDefaultImplementation
 
         public Triangle(int sideLength)
         {
-            NumberOfSides = 4;
+            NumberOfSides = 3;
             SideLength = sideLength;
         }
 
