@@ -10,7 +10,7 @@ namespace UnitTests.Tests
     {
         public int NumberOfSides { get { return 4; } }
         public int SideLength { get { return 5; } set { } }
-        public double GetArea() => NumberOfSides * SideLength;
+        public double GetArea() => SideLength * SideLength;
     }
 
     public class FakePolygonWithOverride : IRegularPolygon
