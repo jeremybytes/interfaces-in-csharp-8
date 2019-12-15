@@ -6,7 +6,7 @@ namespace StaticMembers
 {
     public class HardCodedPeopleReader : IPeopleReader
     {
-        public List<Person> GetPeople()
+        public IReadOnlyCollection<Person> GetPeople()
         {
             var p = new List<Person>()
             {

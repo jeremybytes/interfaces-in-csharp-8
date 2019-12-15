@@ -23,7 +23,7 @@ namespace StaticMembers
             }
         }
 
-        public List<Person> GetPeople()
+        public IReadOnlyCollection<Person> GetPeople()
         {
             var people = ParseString(FileData);
             return people;
