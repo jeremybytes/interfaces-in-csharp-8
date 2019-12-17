@@ -1,6 +1,6 @@
 ﻿namespace StaticMain
 {
-    class Program : IHelloWorld
+    class Program
     {
     }
 }
