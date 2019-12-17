@@ -13,3 +13,4 @@ This is a work in progress.
 [Unit Testing Default Implementation](https://jeremybytes.blogspot.com/2019/09/c-8-interfaces-unit-testing-default.html)  
 [Public, Private, and Protected Members](https://jeremybytes.blogspot.com/2019/11/c-8-interfaces-public-private-and.html)  
 [Static Members](https://jeremybytes.blogspot.com/2019/12/c-8-interfaces-static-members.html)  
+[Static Main -- Why Not?](https://jeremybytes.blogspot.com/2019/12/c-8-interfaces-static-main-why-not.html)  
