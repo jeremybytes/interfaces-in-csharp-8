@@ -1,31 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 
 namespace StaticMembers
 {
     public class CSVPeopleReader : IPeopleReader
     {
-        public string FileData { get; private set; }
-
-        public CSVPeopleReader()
-        {
-            string filePath = AppDomain.CurrentDomain.BaseDirectory + "People.txt";
-            LoadFile(filePath);
-        }
-
-        public void LoadFile(string filePath)
-        {
-            using (var reader = new StreamReader(filePath))
-            {
-                FileData = reader.ReadToEnd();
-            }
-        }
-
         public IReadOnlyCollection<Person> GetPeople()
         {
-            var people = ParseString(FileData);
+            var people = ParseString(IFileLoader.FileData);
             return people;
         }
 
